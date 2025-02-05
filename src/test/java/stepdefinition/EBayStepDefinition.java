@@ -1,8 +1,6 @@
 package stepdefinition;
 
 import common.PropertyManager;
-import ebay.shopping.pages.CartPage;
-import ebay.shopping.pages.HomePage;
 import factory.Factory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

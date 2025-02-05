@@ -6,10 +6,11 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/features/EbayShoppingCart.feature",
         glue = {"stepdefinition","hooks"},
+        tags = "@UI and @eBayShoppingCart",
         publish = true,
-        plugin = {"html:test-output/CucumberReports.html", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        plugin = {"html:test-output/CucumberUITestReport.html", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
 
-public class CucumberTestNGRunner extends AbstractTestNGCucumberTests {
+public class CucumberUITestNGRunner extends AbstractTestNGCucumberTests {
 
 }

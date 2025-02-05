@@ -1,4 +1,4 @@
-@eBayShoppingCart
+@UI @eBayShoppingCart
 Feature:Validate eBay Checkout process
 
   Background:
